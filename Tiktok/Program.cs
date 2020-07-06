@@ -10,15 +10,22 @@ namespace Tiktok
     {
         static void Main(string[] args)
         {
+
+
+            Console.WriteLine("Display Initilization of TIKTOK:");
+
             TikTokManager.Initialize();
 
-
+            Console.WriteLine("Display Show method of TIKTOK");
             TikTokManager.Show();
 
-            
-            TikTokManager.Show("#ootd");
+            Console.WriteLine("Display HashTag  Of TIKTOK:");
+            TikTokManager.Show("#OOTD");
 
+            Console.WriteLine("Display Length  Of TIKTOK:");
             TikTokManager.Show("5");
+
+            Console.WriteLine("Display With Audience OF TIKTOK");
 
             TikTokManager.Show(Audience.World);
 
