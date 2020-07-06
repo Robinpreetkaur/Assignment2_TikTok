@@ -12,7 +12,7 @@ namespace Tiktok
 
     class TikTok
     {
-        private static  int  _ID;
+        private static  int  _ID=1;
 
         public string Originator { get; }
         public string Length { get; }
