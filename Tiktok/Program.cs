@@ -22,8 +22,6 @@ namespace Tiktok
             Console.WriteLine("Display HashTag  Of TIKTOK:");
             TikTokManager.Show("#OOTD");
 
-            Console.WriteLine("Display Length  Of TIKTOK:");
-            TikTokManager.Show("5");
 
             Console.WriteLine("Display With Audience OF TIKTOK");
 
